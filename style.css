@@ -1,9 +1,10 @@
 body{
       background-color: hsl(217, 54%, 11%);
+      font-family: Outfit;
 }
 section{
       background-color: hsl(216, 50%, 16%);
-      margin: 5em 20em;
+      margin: 5em auto;
       height: 28em;
       width: 17em;
       padding: 1.5em;
@@ -15,11 +16,12 @@ section{
       border-radius: 10px;
 }
 h1{
-      font-family: Outfit;
       color: hsl(0, 0%, 100%);
 }
+h1:hover{
+      color: hsl(178, 100%, 50%);
+}
 p{
-      font-family: Outfit;
       color: hsl(215, 51%, 70%);
 }
 #flex{
@@ -40,15 +42,16 @@ hr{
       height: 1.5em;
       width: 1.5em;
       padding-right: 1em;
-      /* border: 1px solid hsl(0, 0%, 100%); */
 }
 #avatar-para strong{
       font-weight: normal;
       color: hsl(0, 0%, 100%);
 }
-
+#avatar-para strong:hover{
+      color: hsl(178, 100%, 50%);
+}
 footer{
-      text-align: center;
+      margin: auto;
 }
 footer a{
       text-decoration: none;
